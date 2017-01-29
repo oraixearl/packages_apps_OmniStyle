@@ -97,6 +97,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>        
+        </activity>
+        
+        <activity
+            android:name=".aaron1"
+            android:label="Aaron pack v1" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                
     </application>
 </manifest>
