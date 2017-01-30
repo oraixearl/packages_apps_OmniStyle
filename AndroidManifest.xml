@@ -110,6 +110,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
         
         <activity
+            android:name=".aaron2"
+            android:label="Aaron pack v2" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
             android:name=".whitey"
             android:label="Whit3y pack uno" >
             <intent-filter>
